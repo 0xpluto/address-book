@@ -1,0 +1,13 @@
+[package]
+name = "plutonium-address-book"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+repository = "https://github.com/0xpluto/address-book"
+description = "A simple address book application for EVM chains."
+license = "MIT"
+authors = ["0xPluto"]
+
+[dependencies]
+alloy-chains = "0.1"
+alloy-primitives = { version = "0.7.6", features = ["rlp"] }
